@@ -11,4 +11,4 @@ def emotion_detector(text_a_analizar):
     dominante = max(resultado, key=resultado.get)
     resultado["dominant_emotion"] = dominante
 
-    return dominante
+    return resultado
